@@ -29,3 +29,13 @@ Esta transformación parte de un análisis exhaustivo de las columnas a transfor
 Cabe destacar que el proceso de transformación del dato se ha visto modificado a lo largo de la realización del proyecto con el fin de testear cuantas más posibilidades y de esta manera conseguir el mayor rendimiento en nuestros modelos.
   
 ## 🦾 ENTRENAMIENTO Y TESTEO DE MODELOS  
+  
+Una vez preparado el dato para ser entrenado, me apoyo en herramientas comparadoras de modelos de *Machine Learning* tales como *Lazy* o H2O. Ambas herramientas concluyen lo mismo. Con los datos que manejamos el modelo que más rendimiento alcanza es el modelo lineal *Huber Regressor* de la librería *SKLearn*.
+  
+A partir de este momento la labor consistirá en hacer pequeñas modificaciones en los datos y su limpieza para intentar exprimir nuestro modelo al máximo. Para el mismo fin, se ha hecho un trabajo de *Grid searching* para encontrar los parámetros óptimos de nuestro modelo.
+  
+## 📝 CONCLUSIONES
+  
+Con la realización de este proyecto me doy cuenta de la existencia de un sin fin de modelos y herramientas a nuestro alcance para realizar predicciones. Sin embargo, considero que la parte más fundamental del proceso es la limpieza, preparación y etiquetación del dato. Sin realizar de manera adecuada este proceso, nuestros modelos carecerán de la consistencia y fiabilidad necesaria para ser tomados como válidos.
+  
+Por otro lado concluyo, que las iniciativas tales como la impulsora de este proyecto (competición de Kaggle), son una excelente manera para que los participantes aprendan, se desafíen a sí mismos, construyan su reputación y ganen reconocimiento en el campo de la ciencia de datos.
